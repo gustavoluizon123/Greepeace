@@ -81,6 +81,6 @@ Esta plataforma web simula o site institucional do **Greenpeace**, permitindo ap
 **Autor:** *Gustavo Luizon Camilo Victorio*
 
 📧 Email: [gustavoluizon9cim@gmail.com](gustavoluizon9cim@gmail.com)
-💼 Linkedin: [https://linkedin.com/gustavo-luizon]([https://github.com/seu-usuario](https://www.linkedin.com/in/gustavo-luizon-056b15344/))
+💼 Linkedin: [https://linkedin.com/gustavo-luizon](https://www.linkedin.com/in/gustavo-luizon-056b15344/)
 
 > "Em defesa do planeta — e aprendendo desenvolvimento web pelo caminho." 🌍✨

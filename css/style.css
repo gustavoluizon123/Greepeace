@@ -1,0 +1,203 @@
+/* styles.css - versão aprimorada com cores e estilos modernos */
+
+/* Reset e tipografia base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #00ff11, #00ff5e);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffeb3b;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #00ff11;
+  border-left: 6px solid #00ff5e;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+button,
+.btn {
+  background: linear-gradient(135deg, #00ff11, #00ff5e);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, background 0.3s;
+}
+
+button:hover,
+.btn:hover {
+  background: linear-gradient(135deg, #00ff11, #00ff5e);
+  transform: scale(1.05);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  border-top: 3px solid #00ff5e;
+}
+
+footer a {
+  color: #00ff5e;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffeb3b;
+}
+
+/* Cartão de projeto */
+
+.projeto-card {
+  background: #f9fbfd;
+  border-left: 5px solid #00ff11;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.projeto-card:hover {
+  background: #e3f2fd;
+  transform: translateX(-3px);
+}
+
+/* Formulários */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: 600;
+}
+
+/* Efeito de boa */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ======== NAVBAR LINKS HOVER (para todas as páginas) ======== */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f7d354; /* amarelo destaque */
+  transform: scale(1.05);
+}
+
+/* ======== LINKS DO MENU (Projetos e Cadastro) ======== */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  color: #f7d354; /* amarelo igual ao da página inicial */
+  transform: scale(1.05);
+}
+
+/* Ajuste para as imagens */
+img {
+  width: 600px; /* ou qualquer largura que você queira */
+  height: 400px; /* mantém todas do mesmo tamanho */
+  object-fit: cover; /* garante que a imagem não distorça */
+}

@@ -1,64 +1,86 @@
 # 🌱 Plataforma Web - Greenpeace
 
-Este projeto é uma simulação de uma plataforma web institucional para a ONG **Greenpeace**, criada com o objetivo de praticar e demonstrar conhecimentos em **HTML5, CSS3 e JavaScript**.
+> Projeto acadêmico inspirado no Greenpeace — sem vínculo oficial. Desenvolvido para praticar HTML5, CSS3 e JavaScript.
 
-A plataforma tem foco em apresentar informações da organização, incentivar o voluntariado e permitir o cadastro de apoiadores, alinhada aos valores do Greenpeace na proteção do meio ambiente e promoção da sustentabilidade global.
+<br>
 
----
+## 🧾 Visão Geral
 
-## 🌍 Sobre o Greenpeace
+Esta plataforma web simula o site institucional do **Greenpeace**, permitindo apresentar informações da organização, projetos ambientais, oportunidades de voluntariado e um formulário de cadastro para apoiadores.
 
-O **Greenpeace** é uma organização global, independente e sem fins lucrativos, dedicada à proteção do meio ambiente e à promoção da paz. Seu trabalho inclui ações em defesa:
+🎯 Objetivo do projeto: praticar fundamentos web incluindo semântica HTML5, formulários, acessibilidade, responsividade e boas práticas de organização de arquivos.
 
-- Dos oceanos e florestas
-- Da biodiversidade e da vida marinha
-- Da redução de emissões e energias limpas
-- Da justiça climática e ambiental
+<br>
 
-Este projeto tem finalidade educacional e não possui vínculo oficial com a organização.
+## ✅ Funcionalidades
 
----
+* Estrutura semântica HTML5 completa
+* Formulários com validação nativa (CPF, telefone, CEP)
+* Máscaras de input via JavaScript
+* Navegação entre páginas
+* Layout responsivo
+* Hover com animações
+* Link e informações institucionais da ONG
 
-## 👤 Públicos atendidos
+<br>
 
-- **Visitantes:** conhecer o Greenpeace, valores e projetos.
-- **Voluntários:** visualizar oportunidades e formas de engajamento.
-- **Apoiadores/doadores:** entender impactos e como contribuir.
-- **Administração (simulado):** estrutura para futuras funções de gestão.
+## 🧠 Tecnologias
 
----
+* HTML5
+* CSS3
+* JavaScript
 
-## 📄 Páginas do projeto
+<br>
 
-| Página | Arquivo | Função |
-|-------|--------|-------|
-| 🏠 Home | `index.html` | Sobre o Greenpeace, missão e contato |
-| 🌿 Projetos | `projetos.html` | Projetos ambientais e voluntariado |
-| 📝 Cadastro | `cadastro.html` | Formulário completo para apoiar/voluntariar |
+## 📂 Estrutura de Pastas
 
----
+```
+/greenpeace
+│── index.html
+│── projetos.html
+│── cadastro.html
+│── css/
+│   └── styles.css
+│── js/
+│   └── script.js
+│── img/
+│   ├── amazoniar.jpg
+│   ├── expedicao.png
+|   ├── Greenpeace.jpg
+|   ├── proposta.jpg
+|   ├── transparencia.jpg
+│   └── voluntariado.jpg 
+│           
+└── README.md
+```
 
-## 🧰 Funcionalidades
+<br>
 
-✔️ Estrutura semântica HTML5  
-✔️ Formulários com validação nativa  
-✔️ Máscaras de CPF, telefone e CEP  
-✔️ Layout responsivo (mobile-first)  
-✔️ Hover e animações em elementos da interface  
-✔️ Elementos multimídia e links oficiais  
-✔️ Boas práticas de acessibilidade (WCAG)  
+## 📎 Badges
 
----
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Acad%C3%AAmico-green?style=for-the-badge)
 
-## 🧠 Tecnologias Utilizadas
+<br>
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- SEO básico  
-- Responsividade e usabilidade  
-- Validação e máscaras de input  
+## 🚧 Melhorias Futuras
 
----
-## 📂 Estrutura do Projeto
+* Painel administrativo
+* Login e autenticação
+* Banco de dados para cadastro real
+* Sistema de voluntariado integrado
+* Sistema de doações
 
+<br>
+
+## 📬 Contato
+
+**Autor:** *Gustavo Luizon Camilo Victorio*
+
+📧 Email: [seuemail@email.com](gustavoluizon9cim@gmail.com)
+💼 Linkedin: [https://linkedin.com/seu-usuario]([https://github.com/seu-usuario](https://www.linkedin.com/in/gustavo-luizon-056b15344/))
+
+> "Em defesa do planeta — e aprendendo desenvolvimento web pelo caminho." 🌍✨
